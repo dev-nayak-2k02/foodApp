@@ -5,7 +5,7 @@ export default function Search(){
     return(
         <div>
             <input type="text" value={query} onChange={(e)=>setQuery(e.target.value)}/>
-            
+            <h2>{query}</h2>
         </div>
     )
 }
